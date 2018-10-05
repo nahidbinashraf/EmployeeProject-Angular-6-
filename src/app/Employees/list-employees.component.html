@@ -1,0 +1,3 @@
+<div *ngFor="let employee of employees">
+      <app-display-employees [employee]="employee"   (notifyDelete)="onDeleteNotification($event)"></app-display-employees>
+  </div>
